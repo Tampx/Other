@@ -1,2 +1,2 @@
 key_Login = 'TamPx'
-expired_Key = '08/05/2029'
+expired_Key = '11/05/2025'
