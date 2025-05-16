@@ -2,13 +2,7 @@ gg.setVisible(false)
 --[[
 Chưa gọi start_Game()
 ]]
-local Name_Script = "Script FF (Tam Px).lua"
-local current_VersionScript = 1
-local currentScriptName = gg.getFile():match("[^/]+$")
-if currentScriptName ~= Name_Script then
-	gg.alert("Lỗi: Script đã bị đổi tên!\nTên đúng: " .. Name_Script .. "\nTên hiện tại: " .. currentScriptName)
-	os.exit()
-end
+
 if not gg.TamPxShell or not gg.TamPxLoad then
 	check_GameGuardian = gg.alert('Please Use Game Guardian Tam Px To Execute This Script !\nGame Guardian Link: Youtube Tam Px', 'Copy Link', 'Exit')
 	if check_GameGuardian == 1 then
